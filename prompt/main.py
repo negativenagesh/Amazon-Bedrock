@@ -15,3 +15,5 @@ payload = {
     "temperature": 0.5,
     "top_p": 0.8,
 }
+
+body=json.dumps(payload)
