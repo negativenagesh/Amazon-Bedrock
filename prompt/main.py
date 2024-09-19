@@ -27,5 +27,5 @@ response=bedrock.invoke_model(
 )
 
 response_body=json.loads(response.get("body").read())
-response_text=responsebody['generation']
+response_text=response_body['generation']
 print(response_text)
