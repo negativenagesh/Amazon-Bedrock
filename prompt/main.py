@@ -17,3 +17,4 @@ payload = {
 }
 
 body=json.dumps(payload)
+model_id="meta.llama2-70b-chat-v1"
